@@ -1,0 +1,141 @@
+in this lesson we take a look at transmission samples obviously this has everything to do with
+
+he threw and refractive surfaces like glass and water
+he threw and refractive surfaces like glass and water
+when a camera hits a surface that has a shader with refractive or transmit of qualities
+when a camera hits a surface that has a shader with refractive or transmit of qualities
+and that shader has a roughness
+and that shader has a roughness
+bigger than zero
+bigger than zero
+mission raise will be generated in random directions and propagated through the object
+mission raise will be generated in random directions and propagated through the object
+the number of those rays can be controlled using transmission samples here
+the number of those rays can be controlled using transmission samples here
+as you increase your transmission samples you are increasing the number of generated rays at that point and at the same time increasing the quality of the indirect transmissions and reducing the amount of noise from the indirect refractive areas
+
+here's the scene that we have the same set up from the previous lessons I have a new object in the scene which is disc
+
+glass
+
+and this is the material that I have applied to my glass
+
+to create a glass shooter obviously after you have applied your Arnold standard surface shader
+
+you can simply choose
+
+glass
+
+presets from these preset menu up here
+
+as you do that you can
+
+the transmission wait he said to one and this is what gives us this refractive transmission quality
+
+let me just increase the alvar all roughness to
+
+may sounds like point twelve
+
+and index of refraction is
+
+said to one point fifty two by default which is the foremost household glasses
+
+
+
+also if you take a look at the glass object and go to its shape note
+
+under the Arnold tab I have disabled this opaque option you should do that if you want a render or refractive surface correctly this way all knows that this is
+
+be a see through object
+
+also the samples for the three area lights in the scene are set
+
+or
+
+so we don't get any noise in our direct diffuse and are direct secular passes
+
+so let's open up to you and are sittings and with default settings
+
+this is the render we are gonna have
+
+
+
+to make the process a bit quicker I show you there are others that I have
+
+snapshots so up any top
+
+
+
+so this is the owner that we are having nice and beautiful
+
+now lets decrease the camera diffuse and circular samples to Juan
+
+Isis isn't William samples to on his will and let's enable deep
+
+I p are
+
+as you can see we have a very noisy result
+
+as soon as I zero's my transmission samples you can see our glass has no refractive quality anymore
+
+we just see some specula flexion
+
+let's increase transmission samples
+
+to one
+
+and stop the IP are here
+
+if we were under with the settings the result would be like to surrender
+
+as you can see the glass and the rest of the scene is very noisy
+
+now let's me increase my transmission samples to for and
+
+
+
+if you take a look at the render was the current settings you can see
+
+we have
+
+increase the quality of our class
+
+and finally
+
+but we still have obviously some other noise
+
+and finally we can increase the camera samples
+
+like
+
+more diffuse and seculars
+
+maybe something like
+
+*识别错误
+
+and if I were under
+
+the scene the result would be like this image here
+
+as you can see the image perfectly is perfectly clear
+
+and because we have increase are camera samples as well
+
+the number of transmission samples are much more compared to the previous render
+
+because remember day in put out transmission samples
+
+multiplied by the counter samples
+
+*识别错误
+
+so maybe we can decrease our transmission samples at it and still have and noise fear render
+
+I'll let you discover that possibility on your own time when you finished watching this lesson
+
+so that's about transmission samples in Arnold
+
+we still have sss samples and volume samples discuss we covered them later on in this course when we discussed subsurface scattering and Wally metric effects
+
+and from the next lesson we start discussing right depth see there
