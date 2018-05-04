@@ -1,17 +1,17 @@
 in this lesson we take a look at transmission samples obviously this has everything to do with
 
 he threw and refractive surfaces like glass and water
-he threw and refractive surfaces like glass and water
+
 when a camera hits a surface that has a shader with refractive or transmit of qualities
-when a camera hits a surface that has a shader with refractive or transmit of qualities
+
 and that shader has a roughness
-and that shader has a roughness
+
 bigger than zero
-bigger than zero
+
 mission raise will be generated in random directions and propagated through the object
-mission raise will be generated in random directions and propagated through the object
+
 the number of those rays can be controlled using transmission samples here
-the number of those rays can be controlled using transmission samples here
+
 as you increase your transmission samples you are increasing the number of generated rays at that point and at the same time increasing the quality of the indirect transmissions and reducing the amount of noise from the indirect refractive areas
 
 here's the scene that we have the same set up from the previous lessons I have a new object in the scene which is disc
